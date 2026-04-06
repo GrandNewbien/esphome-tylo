@@ -51,26 +51,26 @@ esp32:
 external_components:
   - source:
       type: git
-      url: https://github.com/f-io/esphome-tylo
+      url: https://github.com/GrandNewbien/esphome-tylo
       ref: ${branch_ref}
     refresh: 1s
     components: [sauna360]
 
 packages:
   base:
-    url: https://github.com/f-io/esphome-tylo
+    url: https://github.com/GrandNewbien/esphome-tylo
     ref: main
     refresh: 1s
     files: ["packages/base.yaml"]
 
   led:
-    url: https://github.com/f-io/esphome-tylo
+    url: https://github.com/GrandNewbien/esphome-tylo
     ref: main
     refresh: 1s
     files: ["packages/led.yaml"]
 
   model:
-    url: https://github.com/f-io/esphome-tylo
+    url: https://github.com/GrandNewbien/esphome-tylo
     ref: main
     refresh: 1s
     files: ["models/pure.yaml"] # pure | combi | elite | combi_elite
